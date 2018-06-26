@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>npm</title>
+</head>
+<body>
+
+<div class="container-fluid">
+  <nav>
+    <div class="top-left">
+      <a class = "heart" href="#">❤</a>
+      <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+    </div>
+    <ul class="top-links">
+      <li><a href="#">npm Enterprise</a></li>
+      <li><a href="#">features</a></li>
+      <li><a href="#">pricing</a></li>
+      <li><a href="#">documentation</a></li>
+      <li><a href="#">support</a></li>
+    </ul>
+  </nav>
+</div>
+
+<header>
+<div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-1">
+        <img src="images/npm-logo.png" alt="npm" class="npm-logo">
+      </div>
+
+      <div class="col-md-9">
+        <form id="search-box-form" action="search-button" method="post">
+          <input id="search-box" type="search" name="search" value="find Packages">
+          <button type="button" name="button"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="col-md-2">
+        <div class="sign-and-logo">
+          <a id="sign-up-for-npm" href="#">sign up for npm</a>
+          <img id="bear-logo" src="images/bear-logo.png" alt="bear logo">
+        </div>
+      </div>
+      </div>
+
+    </div>
+        <div class="bot-header">
+          <h1>Build amazing things</h1>
+          <p>npm is the package manager for JavaScript and the world's largest
+            <br>
+          software registry. Discover packages of reusable code -- and
+            <br>
+          assemble them in powerful new ways.</p>
+          <br>
+          <button id="sign-up-for-npm-button" type="button" name="button">Sign up for npm</button>
+        </div>
+    </div>
+  </header>
+
+  <section id="sec1">
+    <div class="sec1-content">
+      <img id="collab-img" src="images/collaboration.svg" alt="collaboration">
+      <div class="sec1-text">
+        <h1>npm Orgs is powerful <br> collaboration -- for free</h1>
+        <ul>
+          <li>Encourage code discovery and re-use within teams</li>
+          <li>Publish and control access to your own namespace</li>
+          <li>Manage public and private code with the same workflow</li>
+        </ul>
+        <button id="sign-up-for-orgs" type="button" name="button">Sign up for Orgs</button>
+        <br>
+        <p>or, <b>learn more about Orgs.</b></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec2">
+    <div class="sec2-content">
+      <h1>What is npm?</h1>
+      <p>Use npm to install share, and distribute code;
+      <br>
+      manage dependencies in your projects; and
+      <br>
+      share & receive feedback with others.</p>
+      <br>
+      <button  id="install-npm-button" type="button" name="button">Install npm</button>
+    </div>
+  </section>
+
+  <section id="sec3">
+    <div class="sec3-content">
+      <div class="sec3-top">
+        <h1>What can you make with 475,000 building blocks</h1>
+        <p>The npm registry host almost half a million packages of free,
+         reusable code -- the largest software registry in the world.</p>
+      </div>
+
+      <div class="row font-secundary">
+        <div class="col">
+          <div class="find img-spacing">
+            <img src="images/binoculars.svg" alt="binoculars">
+            <h3>Find</h3>
+            <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>,
+            <br> <a href="#">React</a> and <a href="#">Angular</a>, and
+            <br>components from frameworks
+            <br> such as <a href="#">Ember</a>.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="discover img-spacing">
+            <img src="images/mountain-flag.svg" alt="Mauntain flag">
+            <h3>Discover</h3>
+            <p>Packages for mobile, IoT, front
+            <br> end, back end, robotics...
+            <br>everything you need to start
+            <br> building amazing things.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="build img-spacing">
+            <img src="images/backpack.svg" alt="Backpack">
+            <h3>Build</h3>
+            <p>Assemble packages like building
+            <br> blocks to quickly develop
+            <br> awesome new projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
